@@ -19,7 +19,7 @@ class Program
         Console.WriteLine("Enter the source code (type 'END' on a new line to finish):");
         string sourceCode = ReadSourceCode();
 
-        Console.WriteLine("Enter the input values (stdin): ");
+        Console.WriteLine("Enter the input values: ");
         string stdin = Console.ReadLine();
 
         // Step 2: Submit Code
